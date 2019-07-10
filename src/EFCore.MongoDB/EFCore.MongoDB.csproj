@@ -4,4 +4,24 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Diagnostics\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Internal\" />
+    <Folder Include="Metadata\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="Scaffolding\Internal\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Query\" />
+    <Folder Include="Properties\" />
+    <Folder Include="Storage\Internal\" />
+    <Folder Include="Update\Internal\" />
+    <Folder Include="ValueGeneration\Internal\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+  </ItemGroup>
+
 </Project>
