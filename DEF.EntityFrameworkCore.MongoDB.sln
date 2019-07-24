@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.MongoDB", "src\EFCore.MongoDB\EFCore.MongoDB.csproj", "{04099314-5EE9-4534-94FD-7C3B4BD28EB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.MongoDB.Tests", "test\EFCore.MongoDB.Tests\EFCore.MongoDB.Tests.csproj", "{A6FCE09F-1ED7-4616-BE56-5EC7D91752D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.MongoDB.Tests", "test\EFCore.MongoDB.Tests\EFCore.MongoDB.Tests.csproj", "{A6FCE09F-1ED7-4616-BE56-5EC7D91752D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.MongoDB.FunctionalTests", "test\EFCore.MongoDB.FunctionalTests\EFCore.MongoDB.FunctionalTests.csproj", "{F636F785-169F-47D4-8088-F8A5AB2FB425}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.MongoDB.FunctionalTests", "test\EFCore.MongoDB.FunctionalTests\EFCore.MongoDB.FunctionalTests.csproj", "{F636F785-169F-47D4-8088-F8A5AB2FB425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.NonRelational", "src\EFCore.NonRelational\EFCore.NonRelational.csproj", "{66000313-9DED-4AA9-B3DB-E85EF6150DCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{F636F785-169F-47D4-8088-F8A5AB2FB425}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F636F785-169F-47D4-8088-F8A5AB2FB425}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F636F785-169F-47D4-8088-F8A5AB2FB425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66000313-9DED-4AA9-B3DB-E85EF6150DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66000313-9DED-4AA9-B3DB-E85EF6150DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66000313-9DED-4AA9-B3DB-E85EF6150DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66000313-9DED-4AA9-B3DB-E85EF6150DCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

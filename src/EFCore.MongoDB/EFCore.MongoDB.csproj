@@ -5,20 +5,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Design\Internal\" />
     <Folder Include="Diagnostics\" />
-    <Folder Include="Extensions\" />
-    <Folder Include="Infrastructure\" />
     <Folder Include="Internal\" />
     <Folder Include="Metadata\" />
     <Folder Include="Migrations\" />
+    <Folder Include="Scaffolding\Internal\" />
     <Folder Include="Utilities\" />
     <Folder Include="Query\" />
     <Folder Include="Properties\" />
-    <Folder Include="Scaffolding\Internal\" />
     <Folder Include="Storage\Internal\" />
     <Folder Include="Update\Internal\" />
     <Folder Include="ValueGeneration\Internal\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2019.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
   </ItemGroup>
 
 </Project>
